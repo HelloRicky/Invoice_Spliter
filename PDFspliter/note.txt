@@ -1,0 +1,2 @@
+to build the .exe
+python setup.py build
