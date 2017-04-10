@@ -4,5 +4,5 @@ setup(
     name = "Gui test",
     version = "0.1",
     description = "My GUI Program",
-    executables = [Executable('gui.py')],
+    executables = [Executable('run.py')],
     )
