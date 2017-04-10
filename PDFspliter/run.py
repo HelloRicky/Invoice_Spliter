@@ -62,8 +62,11 @@ def split_file():
                 pages_list.append(num)
             except:
                 return msgbox('All page must be integer number')
+    action_result = splitPDF.splitPdf(path, pages_list)
+    if action_result == True:
+        return msgbox("File generated", "Successful")
+    return msgbox(action_result)
 
-    splitPDF.splitPdf(path, pages_list)
 """
 app content
 
